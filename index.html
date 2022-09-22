@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <script defer src="src.js"></script>
+
+        <title>Frontend Mentor | Interactive rating component</title>
+    </head>
+    <body>
+        <div class="rating">
+            <div class="input">
+                <div class="heading-star">
+                    <img src="images/icon-star.svg" alt="rating image" />
+                </div>
+                <h1 class="rating_heading">How did we do?</h1>
+                <p class="rating_description">
+                    Please let us know how we did with your support request. All
+                    feedback is appreciated to help us improve our offering!
+                </p>
+                <div class="stars">
+                    <div class="star-num"><p>1</p></div>
+                    <div class="star-num"><p>2</p></div>
+                    <div class="star-num"><p>3</p></div>
+                    <div class="star-num"><p>4</p></div>
+                    <div class="star-num"><p>5</p></div>
+                </div>
+                <button disabled class="final-btn" type="submit">SUBMIT</button>
+            </div>
+            <div class="thank-you">
+                <img
+                    src="./images/illustration-thank-you.svg"
+                    alt="thank you for rating"
+                />
+                <span class="thank-stat">You selected 4 out of 5</span>
+                <h1 class="thank-heading">Thank you!</h1>
+                <p class="thank-description">
+                    We appreciate you taking the time to give a rating. If you
+                    ever need more support, don't hesitate to get in touch!
+                </p>
+            </div>
+        </div>
+
+        <!-- Rating state start -->
+        <!--How did we do?
+
+  Please let us know how we did with your support request. All feedback is appreciated 
+  to help us improve our offering!
+
+  1 2 3 4 5
+
+  Submit -->
+
+        <!-- Rating state end -->
+
+        <!-- Thank you state start -->
+
+        <!-- You selected <!-- Add rating here out of 5
+
+  Thank you!
+
+  We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch! -->
+
+        <!-- Thank you state end -->
+
+        <!--   
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+    </body>
+</html>
